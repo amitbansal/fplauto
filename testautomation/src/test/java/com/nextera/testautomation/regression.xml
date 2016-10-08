@@ -1,0 +1,33 @@
+<suite name="Regression test" >
+<test name="Search On Chrome 1 Regression" >
+<parameter name="browserType" value="chrome"></parameter>
+<classes>
+	<class name="com.nextera.testautomation.AppTest">
+		<methods>
+		<include name="testMethod1" />			
+		</methods>
+	</class>
+</classes>
+</test>
+
+<test name="Search On firefox regression" >
+<parameter name="browserType" value="firefox"></parameter>
+<classes>
+	<class name="com.nextera.testautomation.AppTest">
+		<methods>
+		<include name="testMethod2" />			
+		</methods>
+	</class>
+</classes>
+</test>
+<!-- <test name="Search on Chrome" > -->
+<!-- <parameter name="browserType" value="chrome"></parameter> -->
+<!-- <classes> -->
+<!-- 	<class name="testing.msn.homepage.MSNTestClass"> -->
+<!-- 		<methods> -->
+<!-- 		<include name="TestOrganicSearch" />			 -->
+<!-- 		</methods> -->
+<!-- 	</class> -->
+<!-- </classes> -->
+<!-- </test> -->
+</suite> 

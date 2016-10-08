@@ -1,0 +1,9 @@
+{
+  FirstName:"Amit",
+  LastName:"Bansal",
+   Address: {
+    Street1:"14049 Bel red rd",
+    Street2: "Apt 13",
+	City: "Bellevue"
+  }
+}
